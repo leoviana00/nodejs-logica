@@ -1,8 +1,8 @@
 //Faça um programa que leia 2 números, some-os e exiba uma mensagem com o resultado comparando se os valores são maiores, menores ou iguais a 100.
 var readlineSync = require('readline-sync');
 console.log("Programa que exibe o valor maior");
-var um = parseInt(readlineSync.question("Digite o primeiro valor: ", "Digite aqui!")); 
-var dois = parseInt(readlineSync.question("Digite o segundo valor: ","Digite aqui!"));
+var um = parseInt(readlineSync.question("Digite o primeiro valor: ")); 
+var dois = parseInt(readlineSync.question("Digite o segundo valor: "));
 var soma = um + dois;
 
  if(soma > 100){
