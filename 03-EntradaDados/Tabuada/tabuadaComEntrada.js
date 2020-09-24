@@ -2,6 +2,7 @@
 // Armazenado na variável "n"
 // Entrada de dados pelo o usuário
 var readlineSync = require('readline-sync');
+console.log("Programa que exibe a tabuada de um número ");
 var n = readlineSync.question('Digite o valor desejado: ');
 console.log("Tabuada do número "+ n);
 console.log(n +" X 0 = " + (n*0));
