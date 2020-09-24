@@ -8,7 +8,6 @@ var n4 = 10;
 var n5 = 10;
 var media = 0;
 var total = 0;
-
 console.log("Programa para calcular a média de 5 números");
 total = n1 + n2 + n3 + n4 + n5;
 //media = (n1 + n2 + n3 + n4 + n5)/5;
