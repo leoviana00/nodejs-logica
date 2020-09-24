@@ -1,4 +1,4 @@
-# nodejs-logica
+# Praticando com NodeJs
 # Instalação da biblioteca readline-sync
 $ npm install readline-sync
 
