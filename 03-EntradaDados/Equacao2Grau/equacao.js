@@ -21,8 +21,7 @@ if(delta < 0){
     console.log("Para delta positivo, raízes diferentes:");  
     //Fórmula de Bháskara, (-b ± √Δ) / 2 * a
     coeficiente1 = (-valorB + Math.sqrt(delta)) / (2 * valorA);
-    coeficiente2 = (-valorB - Math.sqrt(delta)) / (2 * valorA);
-    
+    coeficiente2 = (-valorB - Math.sqrt(delta)) / (2 * valorA); 
     console.log("x' = " + coeficiente1);
     console.log("x'' = " + coeficiente2);
   }
