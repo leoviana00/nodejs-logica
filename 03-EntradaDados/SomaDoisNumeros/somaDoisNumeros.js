@@ -2,7 +2,7 @@
 soma dois números
 Packages readline-sync - www.npmjs.com */
 var readlineSync = require('readline-sync');
-console.log("Programa para somar dois números");
+console.log("Programa que calcula a soma de dois números");
 var n1 = parseFloat(readlineSync.question('Digite o primeiro valor: '));
 var n2 = parseFloat(readlineSync.question('Digite o segundo valor: '));
 var total = 0;
