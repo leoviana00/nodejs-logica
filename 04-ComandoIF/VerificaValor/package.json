@@ -1,0 +1,15 @@
+{
+  "name": "varificavalor",
+  "version": "1.0.0",
+  "description": "Programa que verifica se um valor e menor, maior ou igual a 100",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "if",
+    "pacotes"
+  ],
+  "author": "Leonardo Viana Pereira",
+  "license": "ISC"
+}
