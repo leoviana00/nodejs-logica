@@ -1,3 +1,4 @@
+// Gerar password aleatório utilizando Math.random 
 function generate_password(length)
 {
     //O parâmetro 36 passado para toString, deve ser um inteiro entre 2 e 36 especificando a base utilizada para representar os valores numéricos.
