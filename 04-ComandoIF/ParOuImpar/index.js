@@ -8,10 +8,11 @@ n = parseInt(readlineSync.question("Digite um número inteiro :"));
 resto = n%2;
 
 if (resto == 0){
-    console.log("Este é um número par");
+    console.log(n + " é um número par");
 }
-else{
-    console.log("Este é um número impar");
+else {
+    console.log(n + " é um número impar");
 }
+
 
 
