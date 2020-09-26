@@ -5,9 +5,9 @@ var readlineSync = require('readline-sync');
 console.log("Programa que resolve uma equação do segundo grau ");
 
 // Variáveis para receber a entrada de dados
-var valor A = 0;
-var valor B = 0;
-var valor C = 0;
+var valorA = 0;
+var valorB = 0;
+var valorC = 0;
 
 // Variáveis para receber o coeficiente
 var coeficiente1;
