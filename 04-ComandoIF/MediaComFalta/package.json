@@ -1,0 +1,20 @@
+{
+  "name": "mediacomfalta",
+  "version": "1.0.0",
+  "description": "Programa que calcula a media e as faltas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "if",
+    "&&",
+    "packages",
+    "calculo",
+    "media",
+    "percentual",
+    "faltas"
+  ],
+  "author": "Leonardo Viana Pereira",
+  "license": "ISC"
+}
