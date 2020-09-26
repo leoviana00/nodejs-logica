@@ -1,13 +1,25 @@
 //Criar um algoritmo que calcule uma equação do 2º grau.
+// Utilizando a readline-sync , biblioteca responsável por ler a entrada de dados
 var readlineSync = require('readline-sync');
+
 console.log("Programa que resolve uma equação do segundo grau ");
-var valorA = readlineSync.question('Digite o valor de A: ');
-var valorB = readlineSync.question('Digite o valor de B: ');;
-var valorC = readlineSync.question('Digite o valor de C: ');
+
+// Variáveis para receber a entrada de dados
+var valor A = 0;
+var valor B = 0;
+var valor C = 0;
+
+// Variáveis para receber o coeficiente
 var coeficiente1;
 var coeficiente2;
 
+//Entrada dos dados
+var valorA = readlineSync.question('Digite o valor de A: ');
+var valorB = readlineSync.question('Digite o valor de B: ');;
+var valorC = readlineSync.question('Digite o valor de C: ');
+
 //Fórmula matemática é b² - 4 * a * c
+// Variável para armazenar o valor de delta
 var delta = (valorB * valorB) - 4 * valorA * valorC;
 
 //Visualizar o valor de delta
