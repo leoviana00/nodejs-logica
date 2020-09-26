@@ -27,7 +27,7 @@ delta = (valorB * valorB) - 4 * valorA * valorC;
 //Visualizar o valor de delta
 console.log("Valor de Delta => " + delta);
 
-//Validando valor de delta
+//Condição para que delta tenha raizes reias ou não
 if(delta < 0){
     console.log("Para delta negativo, não existem raízes reais");  
   } else{
