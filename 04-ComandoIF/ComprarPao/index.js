@@ -44,6 +44,13 @@ totalPao = valorlPao * qtdPao;
 
 // Condição para que ocorra ou não a compra do pão, um ou outro tem que ter a quantia necessária para que ocorra a compra.
 // Observação: não podem somar seus dinheiros
+// Operador lógico ou - ||
+/*
+V || V = V
+V || F = V
+F || V = V
+F || F = F
+*/
 if((grana1 >= totalPao) || (grana2 >= totalPao)){
     console.log("Maravilha "+nome1+ " e " +nome2+ " , hoje vai ter pão!!!");
 }else{
