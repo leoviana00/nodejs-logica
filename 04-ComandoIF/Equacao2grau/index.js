@@ -13,14 +13,16 @@ var valorC = 0;
 var coeficiente1;
 var coeficiente2;
 
+// Variável para armazenar o valor de delta
+var delta = 0 ;
+
 //Entrada dos dados
 valorA = readlineSync.question('Digite o valor de A: ');
 valorB = readlineSync.question('Digite o valor de B: ');;
 valorC = readlineSync.question('Digite o valor de C: ');
 
-//Fórmula matemática é b² - 4 * a * c
-// Variável para armazenar o valor de delta
-var delta = (valorB * valorB) - 4 * valorA * valorC;
+//Calculando valor de delta - Fórmula matemática é b² - 4 * a * c
+delta = (valorB * valorB) - 4 * valorA * valorC;
 
 //Visualizar o valor de delta
 console.log("Valor de Delta => " + delta);
