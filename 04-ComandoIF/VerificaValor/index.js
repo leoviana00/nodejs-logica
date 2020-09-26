@@ -2,12 +2,12 @@
 // Biblioteca responsável por ler as entradas de dados - readline-sync
 var readlineSync = require('readline-sync');
 
-// O que o programa faz
+// Exibe no terminal o que o programa faz
 console.log("Programa que exibe o valor maior");
 
 // Variáveis para armazenamento das entradas de dados
 var um = 0;
-var dois 0;
+var dois = 0;
 
 // Variáveis para armazenamento do cálculo
 var soma = 0;
