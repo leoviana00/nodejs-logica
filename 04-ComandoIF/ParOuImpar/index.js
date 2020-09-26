@@ -12,7 +12,7 @@ var resto = 0;
 console.log("Programa que verifica se um número é par ou impar");
 
 //Entrada de dados
-n = parseInt(readlineSync.question("Digite um número inteiro :"));
+n = parseInt(readlineSync.question("Digite um número inteiro: "));
 
 // Calculando o resto
 resto = n%2;
