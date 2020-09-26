@@ -1,10 +1,25 @@
-//Faça um programa que leia 2 números, some-os e exiba uma mensagem com o resultado comparando se os valores são maiores, menores ou iguais a 100.
+//Programa que lê 2 números, soma e exiba uma mensagem com o resultado comparando se os valores são maiores, menores ou iguais a 100.
+// Biblioteca responsável por ler as entradas de dados - readline-sync
 var readlineSync = require('readline-sync');
-console.log("Programa que exibe o valor maior");
-var um = parseInt(readlineSync.question("Digite o primeiro valor: ")); 
-var dois = parseInt(readlineSync.question("Digite o segundo valor: "));
-var soma = um + dois;
 
+// O que o programa faz
+console.log("Programa que exibe o valor maior");
+
+// Variáveis para armazenamento das entradas de dados
+var um = 0;
+var dois 0;
+
+// Variáveis para armazenamento do cálculo
+var soma = 0;
+
+// Entrada dos dados 
+um = parseInt(readlineSync.question("Digite o primeiro valor: ")); 
+dois = parseInt(readlineSync.question("Digite o segundo valor: "));
+
+// Cálculo
+soma = um + dois;
+
+// Condição para que o número seja maior, menor ou igual a 100
  if(soma > 100){
      console.log(soma + " é maior do que 100!");
    }
