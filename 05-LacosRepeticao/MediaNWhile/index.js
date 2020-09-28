@@ -20,7 +20,8 @@ while (resp == "sim") {
     while(i < t1){
         valor = parseFloat(readlineSync.question("Informe o número " + (i + 1) + ": "));
         total = total + valor;
-        i = i + 1;
+        i++;
+        //i = i + 1
     }
     media = total/t1
     console.log("A média é: " + media);
