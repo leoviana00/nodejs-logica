@@ -1,0 +1,16 @@
+{
+  "name": "trinagulo",
+  "version": "1.0.0",
+  "description": "Verifica se os valores informados representam os valores de um trinagulo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "if",
+    "package",
+    "E"
+  ],
+  "author": "Leonardo Viana Pereira",
+  "license": "ISC"
+}
