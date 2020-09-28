@@ -20,7 +20,6 @@ lc = parseFloat(readlineSync.question("passe o valor de C: "));
 if(la < (lb + lc) && lb < (la + lc) && lc < (la + lb)){
     var texto = "Os valores informados representam os lados de um trinagulo";  
 }
-
 /*
 if(la < (lb + lc)){
     if(lb < (la + lc)){
