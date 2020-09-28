@@ -1,0 +1,15 @@
+{
+  "name": "contaate10",
+  "version": "1.0.0",
+  "description": "Conta ate dez",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "while",
+    "package"
+  ],
+  "author": "Leonardo Viana Pereira",
+  "license": "ISC"
+}
