@@ -19,7 +19,8 @@ console.log("Programa que lê olá mundo 10 x");
 var i = 1;
 //Enquanto i for menor igual a 10 vai executar o bloco
 
-while( i <= 10){
+//for(var i=1; i <= 8; i++){
+while(i<=10){
     console.log("Alô Mundo !!!");
     // variável i recebe o valor de i + 1
     i = i + 1;
