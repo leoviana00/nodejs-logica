@@ -1,0 +1,19 @@
+{
+  "name": "numeroprimo",
+  "version": "1.0.0",
+  "description": "Verifica os numeros primos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Numero",
+    "Primo",
+    "For",
+    "If",
+    "Package",
+    "readline-sync"
+  ],
+  "author": "Leonardo Viana Pereira",
+  "license": "ISC"
+}
