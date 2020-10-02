@@ -5,6 +5,7 @@ function generate_password(length)
     //substring limita os caracteres
     return Math.random().toString(36).substring(0, length);
 }
+
  // Password com 5 caracteres
 console.log(generate_password(5));
  // Password com 6 caracteres

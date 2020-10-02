@@ -18,6 +18,8 @@ for(i = 1; i <= n; i++){
         count = count + 1;
     }
 }
+
+//Condição para um número ser primo ou não
 if (count == 2)
 {
     console.log(" O número " + n + " é um número primo");
