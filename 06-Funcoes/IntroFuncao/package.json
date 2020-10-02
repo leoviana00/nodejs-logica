@@ -1,0 +1,14 @@
+{
+  "name": "funcoes",
+  "version": "1.0.0",
+  "description": "Introduçao a funçoes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "funcoes"
+  ],
+  "author": "Leonardo Viana Pereira",
+  "license": "ISC"
+}
