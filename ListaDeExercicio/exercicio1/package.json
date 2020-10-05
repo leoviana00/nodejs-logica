@@ -1,0 +1,15 @@
+{
+  "name": "exercicio1",
+  "version": "1.0.0",
+  "description": "Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "idade"
+  ],
+  "author": "Leonardo Viana Pereira",
+  "license": "ISC"
+}
