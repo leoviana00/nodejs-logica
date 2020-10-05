@@ -24,8 +24,10 @@ diaNasc = readlineSync.question("Informe o dia que você nasceu: ");
 idade = anoAtual - anoNasc;
 mes =  mesAtual - mesNasc;
 dia =  diaAtual - diaNasc;
+
+dias = (idade * 365); 
 //Exibição na tela
-console.log(" Você tem: " + idade + " anos " + ", " + mes + " meses" + " e " + dia + " dia(s). ");
+console.log(" Você tem: " + idade + " anos " + ", " + mes + " meses" + " e " + dia + " dia(s).");
 
 
 
