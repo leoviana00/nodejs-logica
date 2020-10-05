@@ -15,7 +15,6 @@ var hoje = new Date();
 var diaAtual = hoje.getDate();
 var mesAtual= hoje.getMonth();
 var anoAtual = hoje.getFullYear();
-
 //Entrada dos dados 
 anoNasc = readlineSync.question("Informe o ano que você nasceu: ");
 mesNasc = readlineSync.question("Informe o número que representa o mês que você nasceu: ");
