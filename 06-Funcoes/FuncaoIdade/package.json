@@ -1,0 +1,16 @@
+{
+  "name": "idade",
+  "version": "1.0.0",
+  "description": "Funçao idade",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "funcao",
+    "idade",
+    "getDate"
+  ],
+  "author": "Leonardo Viana Pereira",
+  "license": "ISC"
+}
