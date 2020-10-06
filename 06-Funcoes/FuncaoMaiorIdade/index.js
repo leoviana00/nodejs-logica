@@ -4,5 +4,4 @@ function Idade (Anos) {
     else
     { console.log ("Menor de Idade") }
     }
-
     Idade(3);
