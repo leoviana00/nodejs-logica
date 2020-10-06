@@ -1,0 +1,11 @@
+{
+  "name": "funcaomaioridade",
+  "version": "1.0.0",
+  "description": "Funcao que verifica se voce e de maior",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Viana Pereira",
+  "license": "ISC"
+}
